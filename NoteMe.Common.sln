@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoteMe.Common", "NoteMe.Common\NoteMe.Common.csproj", "{00E4D1FA-E59A-4352-B340-CDD2BF9E0807}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoteMe.Common", "src\NoteMe.Common\NoteMe.Common.csproj", "{00E4D1FA-E59A-4352-B340-CDD2BF9E0807}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoteMe.Common.DataTypes", "NoteMe.Common.DataTypes\NoteMe.Common.DataTypes.csproj", "{009124EF-5D56-4BC4-8677-8EA75BC0FAA8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoteMe.Common.DataTypes", "src\NoteMe.Common.DataTypes\NoteMe.Common.DataTypes.csproj", "{009124EF-5D56-4BC4-8677-8EA75BC0FAA8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
