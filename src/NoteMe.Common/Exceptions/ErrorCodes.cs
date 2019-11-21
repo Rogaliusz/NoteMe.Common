@@ -4,5 +4,6 @@ namespace NoteMe.Common.Exceptions
     {
         public const string UserAlreadyExists = "user_already_exists";
         public const string InvalidCredentials = "invalid_credentials";
+        public const string InvalidParameter = "invalid_parameter";
     }
 }

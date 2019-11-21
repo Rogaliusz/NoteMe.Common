@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using NoteMe.Common.DataTypes.Enums;
-using NoteMe.Common.DataTypes.Providers;
+using NoteMe.Common.Providers;
 
-namespace NoteMe.Common.Dtos
+namespace NoteMe.Common.Domain.Notes.Dto
 {
     public class NoteDto : IDtoProvider,
         IIdProvider, 
@@ -21,9 +21,10 @@ namespace NoteMe.Common.Dtos
         public decimal Latitude { get; set; }
         public decimal Longitude { get; set; }
 
-        public Guid ActualNoteId { get; set; }
+        public Guid? ActualNoteId { get; set; }
         public Guid UserId { get; set; }
         
         public ICollection<AttachmentDto> Attachments { get; set; } = new HashSet<AttachmentDto>();
+        public ICollection<NoteDto> OldNotes { get; set; } = new HashSet<NoteDto>();
     }
 }

@@ -1,11 +1,12 @@
 using System;
-using NoteMe.Common.DataTypes.Providers;
+using NoteMe.Common.Providers;
 
-namespace NoteMe.Common.Commands
+namespace NoteMe.Common.Domain.Users.Commands
 {
     public class UserRegisterCommand : 
         IDtoProvider,
-        IIdProvider
+        IIdProvider,
+        ICommandProvider
     {
         public Guid Id { get; set; }
         public string Email { get; set; }

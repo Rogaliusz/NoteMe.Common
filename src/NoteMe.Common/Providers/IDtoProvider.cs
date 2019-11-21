@@ -1,4 +1,4 @@
-namespace NoteMe.Common.DataTypes.Providers
+namespace NoteMe.Common.Providers
 {
     public interface IDtoProvider
     {

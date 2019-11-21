@@ -1,6 +1,6 @@
 using System;
 
-namespace NoteMe.Common.DataTypes.Providers
+namespace NoteMe.Common.Providers
 {
     public interface IModifiedAtProvider
     {

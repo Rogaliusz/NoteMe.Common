@@ -1,6 +1,6 @@
 using NoteMe.Common.DataTypes.Enums;
 
-namespace NoteMe.Common.DataTypes.Providers
+namespace NoteMe.Common.Providers
 {
     public interface IStatusProvider
     {
