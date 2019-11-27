@@ -1,4 +1,5 @@
 using System;
+using NoteMe.Common.DataTypes.Enums;
 
 namespace NoteMe.Common.Providers
 {
@@ -6,5 +7,7 @@ namespace NoteMe.Common.Providers
     {
         DateTime? LastSynchronization { get; set; }
         bool NeedSynchronization { get; set; }
+        
+        SynchronizationStatusEnum StatusSynchronization { get; set; }
     }
 }

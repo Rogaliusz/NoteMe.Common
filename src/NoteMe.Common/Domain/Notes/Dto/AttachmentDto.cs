@@ -7,10 +7,13 @@ namespace NoteMe.Common.Domain.Notes.Dto
     public class AttachmentDto : IDtoProvider,
         IIdProvider,
         IStatusProvider, 
-        INameProvider
+        INameProvider,
+        ICreatedAtProvider
     {
         public Guid Id { get; set; }
         public StatusEnum Status { get; set; }
         public string Name { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public Guid NoteId { get; set; }
     }
 }

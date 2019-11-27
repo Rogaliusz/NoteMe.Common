@@ -8,7 +8,9 @@ namespace NoteMe.Common.DataTypes
 
         public static class Attachments
         {
-            public static string _ = $"{Api}notes/";
+            public static string _ = $"{Api}attachments/";
+            public static string Upload = $"{_}upload/";
+            public static string Download = $"{_}download/";
         }
 
         public static class Notes
@@ -16,5 +18,6 @@ namespace NoteMe.Common.DataTypes
             public static string _ = $"{Api}notes/";
             public static string History = $"{_}history/";
         }
+        
     }
 }
