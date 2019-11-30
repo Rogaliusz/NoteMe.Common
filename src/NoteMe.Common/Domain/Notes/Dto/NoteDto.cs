@@ -19,8 +19,8 @@ namespace NoteMe.Common.Domain.Notes.Dto
         public string Content { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime ModifiedAt { get; set; }
-        public decimal Latitude { get; set; }
-        public decimal Longitude { get; set; }
+        public double Latitude { get; set; }
+        public double Longitude { get; set; }
 
         public Guid? ActualNoteId { get; set; }
         public Guid UserId { get; set; }
